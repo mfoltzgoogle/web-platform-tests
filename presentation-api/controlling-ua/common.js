@@ -9,8 +9,9 @@
   var castAppId = '915D2A2C';
   var castUrl = 'https://google.com/cast#__castAppId__=' + castAppId;
 
-  window.presentationUrls = [
-    'support/presentation.html',
-    castUrl
-  ];
+  // window.presentationUrls = [
+  //   'support/presentation.html',
+  //   castUrl
+  // ];
+  window.presentationUrls = castUrl;
 })(window);
